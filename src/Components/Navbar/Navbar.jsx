@@ -54,9 +54,12 @@ const Navbar = () => {
 			}}
 		>
 			<div className={styles.navbar}>
-				<a href=''>
+				<a href='https://himanshu-dwivedi.netlify.app/'>
 					<div className={styles.logo}>
-					 		REETESH
+						<img
+							src='https://github.com/himrd95/portfolio/blob/main/src/assets/logo_new.png?raw=true'
+							alt='Logo'
+						/>
 					</div>
 				</a>
 

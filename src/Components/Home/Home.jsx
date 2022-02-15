@@ -75,11 +75,12 @@ const Home = ({ scrollRef }) => {
 							className={styles.name}
 							style={{ color: `${newTheme.title}` }}
 						>
-							Reetesh Meena
+							Himanshu Dwivedi.
 						</div>
 					</h1>
 					<h1>
-						I am a Full Stack Developer 
+						I am a Full Stack Developer based in Mirzapur. I build
+						things for web.
 					</h1>
 					<div className={styles.btn}>
 						<a
@@ -109,8 +110,7 @@ const Home = ({ scrollRef }) => {
 					className={styles.profileImage}
 				>
 					<img
-						src='https://avatars.githubusercontent.com/u/37933301?v=4'
-						 
+						src='https://github.com/himrd95/me_Himanshu/blob/main/public/pic_without_background.jpg?raw=true'
 						alt='Profile pic'
 					/>
 				</div>
@@ -145,7 +145,9 @@ const Home = ({ scrollRef }) => {
 					style={{ color: `${newTheme.para}` }}
 				>
 					<Experiences />
-					 
+					{/* "Himanshu is not only great for development, he is a problem
+					solver who always delivers an exceptional quality of work.
+					Highly recommended." */}
 				</div>
 			</div>
 

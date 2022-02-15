@@ -30,9 +30,14 @@ const About = () => {
 					style={{ color: `${newTheme.para}` }}
 					className={styles.aboutMe}
 				>
-					A Full-Stack Developer, Ready to build, code, and collaborate,
-with a positive mindset, looking forward to
-enhancing my knowledge in this field
+					Hello! My name is Himanshu and I enjoy creating things that
+					live on the internet. My interest in web development started
+					back last year when I was trying to edit things on the web —
+					taught me a lot about HTML & CSS!. <br />
+					<br /> Fast Forwarding to today, I built a number of web
+					applications and 4 major projects. Learned a great deal
+					about teamwork, leadership, and communication. After months
+					of rigorous training, here I am
 					<span style={{ color: `#00a0a0` }}>
 						{' '}
 						looking for an opportunity as a full stack web developer
