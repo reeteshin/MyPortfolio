@@ -11,7 +11,7 @@ import About from '../About/About';
 import { projects } from '../../Utils/Projects';
 import Contact from '../Contact/Contact';
 import { ThemeContext } from '../../ContextProvider/ThemeContext';
-import Experiences from '../Experiences/Experiences';
+ 
 
 const Home = ({ scrollRef }) => {
 	const [projectArray, setProjectArray] = useState(
@@ -75,17 +75,16 @@ const Home = ({ scrollRef }) => {
 							className={styles.name}
 							style={{ color: `${newTheme.title}` }}
 						>
-							Himanshu Dwivedi.
+							Reetesh Meena.
 						</div>
 					</h1>
 					<h1>
-						I am a Full Stack Developer based in Mirzapur. I build
-						things for web.
+						I am a Full Stack Developer 
 					</h1>
 					<div className={styles.btn}>
 						<a
-							href='https://drive.google.com/file/d/1Hy-ysd6t5ILdb8Wgi93ffH0euRecUiSt/view?usp=sharing'
-							target='_blank'
+							href='https://github.com/reeteshin/reeteshin/blob/main/My%20Resume.pdf'
+							target='blank'
 						>
 							<Button
 								text={
@@ -110,7 +109,7 @@ const Home = ({ scrollRef }) => {
 					className={styles.profileImage}
 				>
 					<img
-						src='https://github.com/himrd95/me_Himanshu/blob/main/public/pic_without_background.jpg?raw=true'
+						src='https://avatars.githubusercontent.com/u/37933301?v=4'
 						alt='Profile pic'
 					/>
 				</div>
@@ -130,26 +129,7 @@ const Home = ({ scrollRef }) => {
 				<TechStacks />
 			</div>
 
-			<div
-				id='experience'
-				className={styles.experience}
-				style={{
-					background: `${newTheme.highlightBackground}`,
-				}}
-			>
-				<div
-					data-aos='fade-right'
-					data-aos-offset='150'
-					data-aos-easing='ease-in-sine'
-					data-aos-duration='700'
-					style={{ color: `${newTheme.para}` }}
-				>
-					<Experiences />
-					{/* "Himanshu is not only great for development, he is a problem
-					solver who always delivers an exceptional quality of work.
-					Highly recommended." */}
-				</div>
-			</div>
+			 
 
 			{/* project section from here => */}
 			<div id='projects' className={styles.projects}>

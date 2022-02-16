@@ -3,7 +3,7 @@ import './App.css';
 import Home from './Components/Home/Home';
 import Navbar from './Components/Navbar/Navbar';
 import { ThemeContext } from './ContextProvider/ThemeContext';
-
+import Logo from './assets/Spinner.png'
 function App() {
 	const [state, setState] = useState(false);
 	const { newTheme, open, handleMenu } =
@@ -26,7 +26,7 @@ function App() {
 					className='logoStart'
 				>
 					<img
-						src='https://github.com/himrd95/portfolio/blob/main/src/assets/logo_new.png?raw=true'
+						src={Logo}
 						alt='logo'
 					/>
 				</div>

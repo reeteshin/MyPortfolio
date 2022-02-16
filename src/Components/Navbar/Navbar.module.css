@@ -15,8 +15,9 @@
 }
 .logo img {
 	position: absolute;
-	width: 45px;
-	border-radius: 40px;
+	
+	width: 100px;
+ 
 }
 .navbar {
 	width: 80%;

@@ -13,7 +13,7 @@ const SideIcons = () => {
 				<div className={styles.rightEmail}>
 					<li>
 						<a
-							href='https://www.linkedin.com/in/himanshu-dwivedi-861205112/'
+							href='https://www.linkedin.com/in/reeteshmeena/'
 							aria-label='Linkedin'
 							target='_blank'
 							rel='noreferrer'
@@ -37,7 +37,7 @@ const SideIcons = () => {
 					</li>
 					<li>
 						<a
-							href='https://github.com/himrd95'
+							href='https://github.com/reeteshin'
 							aria-label='GitHub'
 							rel='noreferrer'
 							target='_blank'
@@ -59,7 +59,7 @@ const SideIcons = () => {
 					</li>
 					<li>
 						<a
-							href='https://www.instagram.com/mr_artist_hrd/'
+							href='https://www.instagram.com/reetesh__7/'
 							aria-label='Instagram'
 							target='_blank'
 							rel='noreferrer'
@@ -90,13 +90,13 @@ const SideIcons = () => {
 					</li>
 					<li>
 						<a
-							href='https://twitter.com/himansh03285202'
+							href='https://twitter.com/reetesh75'
 							aria-label='Twitter'
 							target='_blank'
 							rel='noreferrer'
 						>
 							<svg
-								xmlns='http://www.w3.org/2000/svg'
+								xmlns='https://twitter.com/reetesh75'
 								role='img'
 								viewBox='0 0 24 24'
 								fill='none'

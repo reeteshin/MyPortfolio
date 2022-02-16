@@ -1,6 +1,7 @@
 import React, { useState, useRef, useContext } from 'react';
 import { ThemeContext } from '../../ContextProvider/ThemeContext';
 import styles from './Navbar.module.css';
+import NameLogo from '../../assets/reeteshNameLogo.png'
 
 const barStyle = {
 	bar1: {
@@ -54,10 +55,10 @@ const Navbar = () => {
 			}}
 		>
 			<div className={styles.navbar}>
-				<a href='https://himanshu-dwivedi.netlify.app/'>
+				<a href='https://reetesh-meena.vercel.app/'>
 					<div className={styles.logo}>
 						<img
-							src='https://github.com/himrd95/portfolio/blob/main/src/assets/logo_new.png?raw=true'
+							src={NameLogo}
 							alt='Logo'
 						/>
 					</div>
@@ -69,15 +70,15 @@ const Navbar = () => {
 				>
 					<a href='#home'>Home</a>
 					<a href='#about'>About</a>
-					<a href='#experience'>Experience</a>
+					 
 					<a href='#projects'>Projects</a>
 
 					<a href='#contact'>Contact</a>
 				</div>
 				<button
-					aria-label={mode === 'dark' ? 'Light Mode' : 'Dark Mode'}
+					aria-label={mode === 'dark' ? 'Dark Mode':'Light Mode'}
 					title={
-						mode === 'dark' ? 'Toggle Light Mode' : 'Toggle Dark Mode'
+						mode === 'dark' ?  'Toggle Dark Mode':'Toggle Light Mode'
 					}
 					style={{ color: `${newTheme.title}` }}
 					className={styles.modeButton}

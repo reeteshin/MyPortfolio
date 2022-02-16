@@ -8,10 +8,10 @@ const Contact = () => {
 		<footer
 			className={styles.footer}
 			id='contact'
-			// style={{ background: `${newTheme.highlightBackground}` }}
+			 style={{ background: `${newTheme.highlightBackground}` }}
 		>
 			<div className={styles.container}>
-				<h1 style={{ color: `${newTheme.title}` }}>Get in Touch</h1>
+				<h1 style={{ color: `${newTheme.title}` }}>Contact Me</h1>
 				<p
 					style={{ color: `${newTheme.para}` }}
 					className={styles.paragraph}
@@ -24,7 +24,7 @@ const Contact = () => {
 					className={styles.contactOptions}
 				>
 					<a
-						href='tel:9454538373'
+						href='tel:7509815939'
 						aria-label='GitHub'
 						rel='noreferrer'
 						target='_blank'
@@ -32,7 +32,7 @@ const Contact = () => {
 						<i className='fas fa-phone-alt' />
 					</a>
 					<a
-						href='mailto: himrd95@gmail.com'
+						href='mailto: reeteshmeena@gmail.com'
 						aria-label='email'
 						target='_blank'
 						rel='noreferrer'
@@ -40,7 +40,7 @@ const Contact = () => {
 						<i className='far fa-envelope'></i>
 					</a>
 					<a
-						href='https://twitter.com/himansh03285202'
+						href='https://twitter.com/reetesh75'
 						aria-label='Twitter'
 						target='_blank'
 						rel='noreferrer'
@@ -48,7 +48,7 @@ const Contact = () => {
 						<i className='fab fa-twitter'></i>
 					</a>
 					<a
-						href='https://github.com/himrd95'
+						href='https://github.com/reeteshin'
 						aria-label='GitHub'
 						rel='noreferrer'
 						target='_blank'
@@ -57,7 +57,7 @@ const Contact = () => {
 					</a>
 
 					<a
-						href='https://www.linkedin.com/in/himanshu-dwivedi-861205112/'
+						href='https://www.linkedin.com/in/reeteshmeena/'
 						aria-label='Linkedin'
 						target='_blank'
 						rel='noreferrer'
@@ -66,17 +66,8 @@ const Contact = () => {
 					</a>
 				</div>
 			</div>
-			<div
-				style={{ background: `${newTheme.line}` }}
-				className={styles.line}
-			/>
-			<div
-				style={{ color: `${newTheme.para}` }}
-				className={styles.copyright}
-			>
-				Designed and build by Himanshu Dwivedi, 2021 All rights
-				reserved.
-			</div>
+			 
+			 
 		</footer>
 	);
 };
