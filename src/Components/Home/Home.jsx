@@ -109,7 +109,7 @@ const Home = ({ scrollRef }) => {
 					className={styles.profileImage}
 				>
 					<img
-						src='https://avatars.githubusercontent.com/u/37933301?v=4'
+						src='https://reetesh-portfolio.netlify.app/svg/reetesh-removebg.png'
 						alt='Profile pic'
 					/>
 				</div>
