@@ -5,7 +5,7 @@ export const projects = [
 	{
 		img:  "https://reetesh-portfolio.netlify.app/svg/Purplle.png",
 		title: 'Purplle.com Clone',
-		des: 'Purplle.com was a team project. We worked on it for understanding and implement similar features that the Purplle website has. A team of 4 worked for 5 days',
+		des: 'Purplle.com was a team project. We worked on it, for understanding,  and implement similar(e.g Navbar, Home Page, Product Page, Cart Page, Payment Page, Wishlist Page) features that the Purplle website has. A team of 4 worked for 5 days',
 		demo: '',
 		live: 'https://purplle--clone.herokuapp.com/',
 		gitHub: 'https://github.com/kavya-2021/Purplle_Replica',
