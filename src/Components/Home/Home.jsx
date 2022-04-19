@@ -79,7 +79,7 @@ const Home = ({ scrollRef }) => {
 						</div>
 					</h1>
 					<h1>
-						I am a Full Stack Developer 
+						I'm Full Stack Web Developer 
 					</h1>
 					<div className={styles.btn}>
 						<a
